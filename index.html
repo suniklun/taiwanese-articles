@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臺灣台語朗讀文章</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="fade-in">臺灣台語朗讀文章</h1>
+        </header>
+        
+        <main>
+            <div id="homePage" class="content-section fade-in">
+                <h2 class="fade-in">全國語文競賽臺灣台語朗讀文章彙整</h2>
+                <h3 class="fade-in">請依序選擇年份、組別，以利查看</h3>
+                <button class="start-button" onclick="showYearList()">
+                    <span class="button-text">開始瀏覽</span>
+                    <span class="button-icon">→</span>
+                </button>
+                <button class="info-button" onclick="showInfo()">
+                    <span class="button-text">說明</span>
+                </button>
+            </div>
+
+            <div id="yearList" class="content-section fade-in hidden">
+                <!-- 年份列表將由 JavaScript 動態生成 -->
+            </div>
+            
+            <div id="groupList" class="content-section fade-in hidden">
+                <!-- 組別列表將由 JavaScript 動態生成 -->
+            </div>
+            
+            <div id="pdfList" class="content-section fade-in hidden">
+                <!-- PDF 列表將由 JavaScript 動態生成 -->
+            </div>
+        </main>
+        
+        <nav id="breadcrumb" class="fade-in">
+            <!-- 麵包屑導航將由 JavaScript 動態生成 -->
+        </nav>
+        <h3 class="fade-in">2025 孫翊倫 彙整</h3>
+    </div>
+
+    <!-- 說明彈出視窗 -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="hideInfo()">&times;</span>
+            <h2 style="text-align: center;">說明</h2>
+            <div class="info-content">
+                <p>  編者目前是一名高中生，透過參與台語認證與相關競賽的經驗，實踐自學台語的能力。然而，當前學習資源多半零散且缺乏系統性，難以確保學習內容的正確性，進而影響整體學習效率。</p>
+                <p>  我深刻體會到，在學習台語的路上，許多人對於讀與寫常感困惑與無所適從。無論是為了參加競賽、取得認證，或是單純想精進語言能力，皆離不開那些經教育部審定的文章。這類文本不僅用詞嚴謹、句構完整，更能有效提升閱讀與寫作的整體素養，是全方位的學習資源。</p>
+                <p>  在資訊普遍盛行世代，藉由歷年台語文章彙整，讓學習者能在資源尋覓更加省心。</p>
+                <p>  語言是文化的載體，牽連著歷史、政治、地緣等關係，不論何種本土語言，都應該世代「存續」，而非世代「斷層」，期盼透過你我一起守護我們的母語。</p>
+                <p style="text-align: center;">編者 啟</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 
