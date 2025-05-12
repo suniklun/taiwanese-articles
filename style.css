@@ -581,4 +581,31 @@ header {
 
 .info-content li {
     margin-bottom: 0.5rem;
+}
+
+.audio-button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.audio-button {
+    background-color: #5b5b5b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.audio-button:hover {
+    background-color: #9f9f9f;
+}
+
+.audio-icon {
+    font-size: 20px;
 } 
