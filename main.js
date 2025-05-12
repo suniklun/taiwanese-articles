@@ -6,6 +6,13 @@ const data = {
         '109': ['教師組', '社會組', '高中組', '國中組', '國小組'],
         '108': ['教師組', '社會組', '高中組', '國中組', '國小組']
     },
+    audioLinks: {
+        '113': 'https://jen-pin.com.tw/news_intro.php?id=347',
+        '112': 'https://jen-pin.com.tw/news_intro.php?id=299',
+        '111': 'https://jen-pin.com.tw/news_intro.php?id=229',
+        '110': 'https://jen-pin.com.tw/news_intro.php?id=158',
+        '109': 'https://jen-pin.com.tw/news_intro.php?id=89'
+    },
     pdfs: {
         '113': {
             '高中組': 'https://drive.google.com/file/d/1GS5O-fIe9IiPdHbZOJWlAuQbsq45loIF/view?usp=drive_link',
@@ -115,6 +122,13 @@ function showGroupList() {
                 </div>
             `).join('')}
         </div>
+        ${data.audioLinks[currentYear] ? `
+            <div class="audio-button-container">
+                <button class="audio-button" onclick="openAudio('${data.audioLinks[currentYear]}')">
+                    <span class="audio-icon">🔊</span> 聽音檔
+                </button>
+            </div>
+        ` : ''}
     `;
     
     hideElement('yearList');
@@ -174,6 +188,11 @@ function hideElement(id) {
 
 // 開啟 PDF
 function openPdf(url) {
+    window.open(url, '_blank');
+}
+
+// 開啟音檔連結
+function openAudio(url) {
     window.open(url, '_blank');
 }
 
