@@ -1,12 +1,13 @@
 // 修改資料結構，使用 URL 而不是本地檔案路徑
 const data = {
-    years: ['113', '112', '111', '110', '109','108'].sort((a, b) => b - a),  // 確保年份由大到小排序
+    years: ['114','113', '112', '111', '110', '109','108'].sort((a, b) => b - a),  // 確保年份由大到小排序
     groups: ['高中組', '國中組', '國小組'],  // 固定組別順序
     specialGroups: {  // 新增特殊年份的額外組別
         '109': ['教師組', '社會組', '高中組', '國中組', '國小組'],
         '108': ['教師組', '社會組', '高中組', '國中組', '國小組']
     },
     audioLinks: {
+        '114': 'https://jen-pin.com.tw/news_intro.php?id=425',
         '113': 'https://jen-pin.com.tw/news_intro.php?id=347',
         '112': 'https://jen-pin.com.tw/news_intro.php?id=299',
         '111': 'https://jen-pin.com.tw/news_intro.php?id=229',
@@ -14,6 +15,11 @@ const data = {
         '109': 'https://jen-pin.com.tw/news_intro.php?id=89'
     },
     pdfs: {
+        '114': {
+            '高中組': 'https://drive.google.com/file/d/15eSVPEXgf8Y3F84O68IaodiaaK4Ql1OR/view?usp=drive_link',
+            '國中組': 'https://drive.google.com/file/d/1osVIL6saCXruZaBMeANJiX9JgSgmxh3t/view?usp=drive_link',
+            '國小組': 'https://drive.google.com/file/d/11N_EzYvJkN5aahM-03yattSkxv5rf2Gs/view?usp=drive_link'
+        },
         '113': {
             '高中組': 'https://drive.google.com/file/d/1GS5O-fIe9IiPdHbZOJWlAuQbsq45loIF/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1WgnZAN8RP3l0h1pMNU9aM-QSvSPxVv-9/view?usp=drive_link',
