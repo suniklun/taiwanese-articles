@@ -16,7 +16,7 @@ const data = {
     },
     pdfs: {
         '114': {
-            '高中組': 'https://drive.google.com/file/d/15eSVPEXgf8Y3F84O68IaodiaaK4Ql1OR/view?usp=drive_link',
+            '高中組': 'https://drive.google.com/file/d/1m1SLf3WQYbj0q2OhZnxxH9Iw768KFA1H/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1osVIL6saCXruZaBMeANJiX9JgSgmxh3t/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/11N_EzYvJkN5aahM-03yattSkxv5rf2Gs/view?usp=drive_link'
         },
@@ -224,3 +224,4 @@ document.addEventListener('click', function(event) {
 
 // 頁面載入時初始化
 document.addEventListener('DOMContentLoaded', init); 
+
