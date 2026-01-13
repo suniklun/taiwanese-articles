@@ -1,7 +1,7 @@
 // 修改資料結構，使用 URL 而不是本地檔案路徑
 const data = {
     years: ['114','113', '112', '111', '110', '109','108'].sort((a, b) => b - a),  // 確保年份由大到小排序
-    groups: ['高中組', '國中組', '國小組'],  // 固定組別順序
+    groups: ['教師與社會組','高中組', '國中組', '國小組'],  // 固定組別順序
     specialGroups: {  // 新增特殊年份的額外組別
         '109': ['教師組', '社會組', '高中組', '國中組', '國小組'],
         '108': ['教師組', '社會組', '高中組', '國中組', '國小組']
@@ -16,26 +16,31 @@ const data = {
     },
     pdfs: {
         '114': {
+            '教師與社會組': 'Ｘ',
             '高中組': 'https://drive.google.com/file/d/1m1SLf3WQYbj0q2OhZnxxH9Iw768KFA1H/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1osVIL6saCXruZaBMeANJiX9JgSgmxh3t/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/11N_EzYvJkN5aahM-03yattSkxv5rf2Gs/view?usp=drive_link'
         },
         '113': {
+            '教師與社會組': 'https://drive.google.com/file/d/1i1235RwkpNIEMARtBYz5MmH8QKXRUg3j/view?usp=sharing',
             '高中組': 'https://drive.google.com/file/d/1GS5O-fIe9IiPdHbZOJWlAuQbsq45loIF/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1WgnZAN8RP3l0h1pMNU9aM-QSvSPxVv-9/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/1AIIsHSPNHPXm09QkDnmnVsOuiKvZAvQw/view?usp=drive_link'
         },
         '112': {
+            '教師與社會組': 'https://drive.google.com/file/d/1UlQjz8PzM3EySgtoMIvBGYT8QWBDpgku/view?usp=sharing',
             '高中組': 'https://drive.google.com/file/d/1aqYU1AGKmoATnlb9pndxpe45QQDE8NCf/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1ZD6IJ7hDFPlLFnWHSfw2jc6Q-KWjv7JG/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/1YB1WfdqHdh3BJaYhp6zyK4Zf5VCHgez8/view?usp=drive_link'
         },
         '111': {
+            '教師與社會組': 'https://drive.google.com/file/d/1rlqvVydtX7ZtNikwLKEIjs1FyZ7Ptnwr/view?usp=drive_link',
             '高中組': 'https://drive.google.com/file/d/1CnZbgoz42CPLDgYteK-0TG_ZmRv27vpp/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1yL_ydKLo8o5mPdR622Rtxdzlmbbn82rj/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/1Mv13U6SuWN7DregY76yYaf9Odu-cBdOs/view?usp=drive_link'
         },
         '110': {
+            '教師與社會組': 'https://drive.google.com/file/d/16E0pCBygIhOboCUa-50ufhxJmx8eh9Hc/view?usp=drive_link',
             '高中組': 'https://drive.google.com/file/d/1vIQgcCXWsMOOTOZICY078fXhqAar292A/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/12iwHcK0qnoOKj-HjcgIlOo9pMIMZtjyZ/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/1fevEmd7HH9mwNLn_9UQPKwcbHzjLjeX3/view?usp=drive_link'
@@ -224,4 +229,5 @@ document.addEventListener('click', function(event) {
 
 // 頁面載入時初始化
 document.addEventListener('DOMContentLoaded', init); 
+
 
