@@ -16,7 +16,7 @@ const data = {
     },
     pdfs: {
         '114': {
-            '教師與社會組': 'https://drive.google.com/file/d/1m1SLf3WQYbj0q2OhZnxxH9Iw768KFA1H/view?usp=drive_link',
+            '教師與社會組': 'https://drive.google.com/file/d/1LlImE9JYOg3-qlly1FX4X7KuZtgKIG9R/view?usp=drivesdk',
             '高中組': 'https://drive.google.com/file/d/1m1SLf3WQYbj0q2OhZnxxH9Iw768KFA1H/view?usp=drive_link',
             '國中組': 'https://drive.google.com/file/d/1osVIL6saCXruZaBMeANJiX9JgSgmxh3t/view?usp=drive_link',
             '國小組': 'https://drive.google.com/file/d/11N_EzYvJkN5aahM-03yattSkxv5rf2Gs/view?usp=drive_link'
