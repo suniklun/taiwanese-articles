@@ -15,6 +15,12 @@ const data = {
         '109': 'https://jen-pin.com.tw/news_intro.php?id=89'
     },
     pdfs: {
+        '115': {
+            '教師與社會組': 'https://suniklun.github.io/taiwanese-articles/',
+            '高中組': 'https://drive.google.com/file/d/1ndpTdJDoot8qMmWjdKKmWtb36w8djP9C/view?usp=drive_link',
+            '國中組': 'https://drive.google.com/file/d/13ErwSVmDqwQpTgg02o9Wb-gP9ltWkB7s/view?usp=drive_link',
+            '國小組': 'https://drive.google.com/file/d/1IRNtFmQt3Y_14gv05SSJYGmvRcpTxhR3/view?usp=drive_link'
+        },
         '114': {
             '教師與社會組': 'https://drive.google.com/file/d/1LlImE9JYOg3-qlly1FX4X7KuZtgKIG9R/view?usp=drivesdk',
             '高中組': 'https://drive.google.com/file/d/1m1SLf3WQYbj0q2OhZnxxH9Iw768KFA1H/view?usp=drive_link',
