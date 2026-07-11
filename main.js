@@ -7,7 +7,7 @@ const data = {
         '108': ['教師組', '社會組', '高中組', '國中組', '國小組']
     },
     audioLinks: {
-        '114': 'https://jen-pin.com.tw/news_intro.php?id=454',
+        '115': 'https://jen-pin.com.tw/news_intro.php?id=454',
         '114': 'https://jen-pin.com.tw/news_intro.php?id=425',
         '113': 'https://jen-pin.com.tw/news_intro.php?id=347',
         '112': 'https://jen-pin.com.tw/news_intro.php?id=299',
