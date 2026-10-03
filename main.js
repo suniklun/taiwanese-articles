@@ -96,7 +96,7 @@ function showYearList() {
         <button class="back-button" onclick="showHomePage()">
             <span class="arrow">←</span> 返回首頁（轉去頭頁）
         </button>
-        <h2>年份選擇</h2>
+        <h2>年份選擇（揀選年份）</h2>
         <div class="item-list">
             ${data.years.map(year => `
                 <div class="item" onclick="selectYear('${year}')">
